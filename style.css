@@ -1,0 +1,75 @@
+a {
+    color: skyblue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: skyblue;
+  }
+  
+  .btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: royalblue;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    color: lightblue;
+    background-color: royalblue;
+    transition: .05s ease-in;
+  }
+  
+  .btn:active {
+    font-size: 14px;
+    border: 1px solid royalblue;
+    transition: .1s ease-in-out;
+  }
+  
+  .activity{
+    border: 1px solid #2176ff;
+    background-color: #2176FF;
+    box-sizing: border-box;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Amatic SC',sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .activity:hover {
+    background-color: #2195FF;
+    color: #fff;
+    transition: .1s;
+    font-weight: bold;
+  }
+  
+  .activity:active {
+    font-size: 35px;
+    background-color: #2170FF
+  }
+  
